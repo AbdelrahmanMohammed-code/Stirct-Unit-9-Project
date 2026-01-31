@@ -1,0 +1,295 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(232, 240, 246);
+}
+
+/* Nav Bar */
+nav{
+    width: 100%;
+    height: 8vh;
+    background-color:azure ;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    width: 40%;
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+    margin-top:25px;
+    justify-content: space-around;
+}
+
+nav ul li a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+nav h2{
+    width: 30%;
+    margin-left: 40px;
+}
+
+
+.h2{
+    margin-bottom: 35px;
+    font-size: 45px;
+    color:darkslateblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    
+}
+
+/* Header Sction */
+
+.header{
+    width: 100%;
+    height: 75vh;
+    background-image: url(Images/header.jpg);
+    background-size:contain;
+    align-content: center;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.title h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    width: 50%;
+    margin: 20px auto;
+    border: solid 1px #61c2f7;
+}
+.title p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.title a{
+    color: white;
+    border: solid 1px #61c2f7; 
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.title a:hover{
+    color: white;
+    opacity: .5;
+}
+
+/* About */
+.about{
+    width: 100%;
+    height: 27vh;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.p{
+    margin-bottom: 40px;
+}
+
+.about h2{
+    font-size: 30px;
+}
+
+/* Cards */
+.cards{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    padding: 50px 0px;
+}
+
+.icon{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.icon img{
+    margin-bottom: 15px;
+}
+
+.icon h3{
+    letter-spacing: 1px;
+    color: black;
+}
+
+.icon p{
+    font-size: 18px;
+    color: #828282;
+    line-height: 1;
+}
+
+/* Pictures */
+.images{
+    width: 100%;
+    height: 90vh;
+}
+
+.words{
+    text-align: center;
+    padding: 30px;
+}
+
+.words h2{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.words p{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 25px;
+    margin-top: 9px;
+}
+
+.item{
+    width: 31%;
+    margin: 1%;
+    float: left;
+}
+
+.item img{
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.item img:hover{
+    transform: scale(0.9);
+}
+
+/* Contacts Us */
+.contact{
+    width: 100%;
+    height: 61.6vh;
+    background-image: url(./Images/Road.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(45, 57, 80, .8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.stay{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.stay h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+.stay p{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.inputs{
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.inputs input[type=text],input[type=email],textarea{
+    width: 600px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: transparent;
+    display: block;
+    border: solid 1px gray;
+    border-radius: 7px;
+}
+
+.c{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+    float: left;
+}
+
+input[type=checkbox]{
+    margin-right: 20px;
+}
+
+input[type=submit]{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 19px;
+    border: solid 1px #61c2f7;
+    border-radius: 7px;
+}
+
+input[type=submit]:hover{
+    opacity: 0.5;
+    color: white;
+}
+
+
+/* Footer */
+footer{
+    height: 8vh;
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    padding-bottom: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 36px;
+    margin: 5px;
+    color: #61c2f7;
+}
+
+footer p{
+    letter-spacing: 1px;
+    color: rgb(123, 120, 120);
+}
