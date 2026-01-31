@@ -1,1 +1,1 @@
-# Stirct-Unit-9-Project
+# Strict-Unit-9-Project
